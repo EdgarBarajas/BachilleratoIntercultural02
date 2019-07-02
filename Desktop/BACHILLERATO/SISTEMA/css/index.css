@@ -1,0 +1,279 @@
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.navbar ul li a{
+	color: #000!important;	
+	font-size: 18px;
+}
+.navbar ul li a:hover{
+	color: #346cc7!important;
+}
+
+/*----fondos----*/
+.bg-e{
+	background-image: url('../images/fondoe.png');
+	background-size: cover;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.bg-d{
+	background-image: url('../images/fondod.png');
+	background-size: cover;
+	height: 100%;
+	background-attachment: fixed;
+}
+/*----fondos----*/
+
+
+/*----colores----*/
+
+.azul{
+	color: #346cc7;
+}
+.bg-azul{
+	background-color: #346cc7;
+}
+.azul2{
+	color: #7ea5e2;
+}
+.bg-azul2{
+	background-color: #7ea5e2;
+}
+.azul3{
+  background-color: #d4e7f6;
+}
+
+.blanco{
+	color: #fff;
+}
+.bg-blanco{
+	background: #fff;
+}
+.bg-gris{
+  background-color: #e2e2e3;
+}
+.bg-gris2{
+  background-color: #babbbd;
+}
+  .bg-azul2{
+    background-color: #82bce4;
+  }
+  .bg-azul3{
+    background-color: #d4e7f6;
+  }
+/*----colores----*/
+
+/*----botones----*/
+.botonfi{
+	border: 3px solid  #346cc7; 
+}
+
+.botonfi:hover{
+	transform: rotate(-2deg) scale(1.05) ;
+	background-color: #346cc7;
+	opacity: 0.60;
+	
+}
+.h:hover{
+	color: #fff;
+}
+
+.activef{
+	transform: rotate(-2deg) scale(1.05) ;
+	background-color: #346cc7;
+	opacity: 0.60;
+	color: #fff;
+}
+
+
+.botonr{
+	border-radius: 10px;
+	background-color:#fff!important;
+	color: #fff;
+}
+.botonr:hover{
+	border-radius: 10px;
+	background-color:#fff!important;
+	color: #fff;
+}
+.f:hover{
+	color: #3b5998;
+	transform: scale(1.3);
+
+}
+
+.w:hover{
+	color: #25d366;
+	transform: scale(1.3);
+}
+.y:hover{
+	color: #ff0000;
+	transform: scale(1.3);
+}
+
+.botono{
+	border: 5px solid  #fff;
+	padding: 10px; 
+}
+.botono:hover{
+	background-color: #7ea5e2;
+	border: 5px solid  #fff;
+	padding: 10px; 
+	transform: scale(1.1);
+}
+/*----botones----*/
+
+@media screen and (max-width: 500px){
+	.ol{
+		display: none;
+	}
+} 
+
+
+/* Galeria */
+.post-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 293px));
+  justify-content: center;
+  grid-gap: 28px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.post-list ul {
+  padding-left: 0px;
+}
+
+.post-galery {
+  cursor: pointer;
+  position: relative;
+  display: block;
+}
+
+.post-image {
+  margin: 0;
+  list-style: none;
+}
+
+.post-image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.post-overlay {
+  background: rgba(0, 0, 0, .4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.post-galery:hover .post-overlay {
+  display: flex;
+}
+
+.post-likes, .post-comments {
+  width: 80px;
+  margin: 5px;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.container-galery h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.container-galery {
+  margin-bottom: 5%
+}
+
+/*/---***************EFECTO LIGHTBOX******************/
+._modal {
+  display: none;
+}
+
+._modal:target {
+  display: flex;
+
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 4000;
+  background: rgba(0, 0, 0, 0.9);
+  top: 0px;
+  left: 0px;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+}
+
+._imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+._imagen a  img{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+}
+
+.button-prev, .button-next {
+  color: #fff;
+  font-size: 50px;
+}
+
+.button-prev:hover, .button-next:hover {
+  text-decoration: none;
+  color: #2c8dc2;
+}
+
+.button-close {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+  border-radius:;
+  
+  color: white;
+  background-color:;
+
+  width: 67px;
+  height: 67px;
+  font-size: 50px
+}
+
+
+.button-close:hover {
+  text-decoration: none;
+  color: red;
+  padding: 0px;
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bn2bbg');
+  src:  url('fonts/icomoon.eot?bn2bbg#iefix') format('embedded-opentype'),
+  url('fonts/icomoon.ttf?bn2bbg') format('truetype'),
+  url('fonts/icomoon.woff?bn2bbg') format('woff'),
+  url('fonts/icomoon.svg?bn2bbg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;

@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Native CSS -->
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" type="text/css" href="../css/animate.min.css">
+
+  <!-- Icono CSS -->
+  <link rel="icon" type="text/css" href="../images/logo.ico">
+
+  <title>Mapa-Curricular</title>
+</head>
+<body class="">
+
+  <!-- Menu de Navegación -->
+  <header class="  bg-blanco">
+    <div class="container">
+      <div class="row pt-2">
+        <div class="col-md-4 col-12 offset-md-4 text-center">
+          <img width="100" class="" src="../images/logo2.png">
+          <img width="100" class="" src="../images/logo3.png">
+        </div>
+      </div>
+    </div>
+  </header>
+  <header  class="sticky-top  bg-blanco">
+    <nav class="navbar navbar-expand-lg navbar-light container">
+      <a class="navbar-brand" href="../index.html">
+        <img width="50" src="../images/logo.jpeg">
+      </a>
+      <div class="azul ol"><h6>BACHILLERATO INTERCULTURAL 02</h6></div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i style="border-radius: 100%; border:3px solid  #346cc7;" class="fas fa-home azul p-2"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto text-center">
+          <li class="nav-item ">
+            <a class="nav-link azul" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="identidad.html">Identidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mapa.html"><b class="azul">Mapa Curricular</a></b>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.php">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Estudiantes
+            </a>
+            <form>
+            <div class="dropdown-menu text-center form-group" aria-labelledby="navbarDropdown">
+              <button class="bg-azul btn-block blanco" type="button" data-toggle="collapse" data-target="#collapsea" aria-expanded="false" aria-controls="collapseExample">
+              Formatos
+              </button>
+              <div class="collapse" id="collapsea">
+                <div class="card card-body">
+                    <a class="dropdown-item" href="../docs/solicitud_estatal_de_preinscripcion_general.xls" target="_blank">Preinscripciones</a>
+                    <a class="dropdown-item" href="../docs/formato_inscripcion.doc" target="_blank">Inscripciones</a>
+                </div>
+              </div>
+
+             
+              <button class="bg-azul btn-block blanco" type="button" data-toggle="collapse" data-target="#collapseb" aria-expanded="false" aria-controls="collapseExample">
+              Horarios
+              </button>
+              <div class="collapse" id="collapseb">
+                <div class="card card-body">
+                    <a class="dropdown-item" href="../docs/h1.pdf" target="_blank">Primer semestre</a>
+                    <a class="dropdown-item" href="../docs/h2.pdf" target="_blank">Segundo semestre</a>
+                    <a class="dropdown-item" href="../docs/h3.pdf" target="_blank">Tercer semestre</a>
+                    <a class="dropdown-item" href="../docs/h4.pdf" target="_blank">Cuarto semestre</a>
+                    <a class="dropdown-item" href="../docs/h5.pdf" target="_blank">Quinto semestre</a>
+                    <a class="dropdown-item" href="../docs/h6.pdf" target="_blank">Sexto semestre</a>
+                </div>
+              </div>
+              <a class="dropdown-item" href="estudiantes.php">Calificaciones</a>
+            </div>
+            </form>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="docentes.php">Docentes</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+  <!-- /Menu de Navegación -->
+
+ 
+  <!-- contenedor  --> 
+  <div class="container table-responsive">
+    <table class="table">
+      <!-- Encabezado -->
+      <thead>
+        <tr class="text-center">
+          <th class="bg-azul blanco" scope="col">Campos disiplinarios</th>
+
+          <th class="bg-azul blanco" scope="col">Primer semestre</th>
+          <th class="bg-azul blanco" scope="col">Hrs.</th>
+          <th class="bg-azul blanco" scope="col">Segundo semestre</th>
+          <th class="bg-azul blanco" scope="col">Hrs.</th>
+          <th class="bg-azul blanco" scope="col">Tercer semestre</th>
+          <th class="bg-azul blanco" scope="col">Hrs.</th>
+          <th class="bg-azul blanco" scope="col">Cuarto semestre</th>
+          <th class="bg-azul blanco" scope="col">Hrs.</th>
+          <th class="bg-azul blanco" scope="col">Quinto semestre</th>
+          <th class="bg-azul blanco" scope="col">Hrs.</th>
+          <th class="bg-azul blanco" scope="col">Sexto semestre</th>
+          <th class="bg-azul blanco" scope="col">Hrs.</th>
+        </tr>
+      </thead>
+      <!-- /Encabezado -->
+      <tbody>
+
+        <!-- Matemáticas -->
+        <tr>
+          <th class="bg-azul blanco text-center" scope="row">
+            <br>
+            Matemáticas
+          </th>
+          <td class="bg-gris">Matemáticas I (fortalecimiento académico)</td>
+          <td class="bg-gris">6</td>
+          <td class="bg-gris">Matemáticas II</td>
+          <td class="bg-gris">4</td>
+          <td class="bg-gris">Matemáticas III </td>
+          <td class="bg-gris">5</td>
+          <td class="bg-gris">Matemáticas IV</td>
+          <td class="bg-gris" >4</td>
+
+          <td class="bg-azul2">Matemáticas aplicadas I </td>
+          <td class="bg-azul2">3</td>
+          <td class="bg-azul2">Matemáticas aplicadas II </td>
+          <td class="bg-azul2">4</td>
+        </tr>
+        <!-- /Matemáticas -->
+
+        <!-- Ciencias experimentales -->
+        <tr>
+          <th class="bg-azul blanco text-center" scope="row">
+            <br>
+            Ciencias
+            experimentales
+          </th>
+          <td class="bg-gris">Física I
+            <br>
+            Química I
+            <br>
+            Eje temático
+            <br>
+            Ecología
+          </td>
+          <td class="bg-gris">10</td>
+          <td class="bg-gris">
+            Biología I
+            <br>
+            Eje temático
+            <br>
+            Ecología
+          </td>
+          <td class="bg-gris">4</td>
+          <td class="bg-gris">
+            Física II
+            <br>
+            Eje temático
+            <br>
+          Trabajo y Geografía </td>
+          <td class="bg-gris">3</td>
+          <td class="bg-gris">
+            Química II 
+            <br>
+            Eje temático
+            <br>
+            Nutrición y salud
+          </td>
+          <td class="bg-gris">4</td>
+          <td class="bg-gris">
+            Biología II 
+            <br>
+            Eje temático
+            <br>
+            Nutrición y salud
+          </td>
+          <td class="bg-gris">4</td>
+          <td class="bg-azul2">
+            Ecología y medio mbiente 
+            <br>
+            Eje temático 
+            <br>
+            Proyecto de integración
+          </td>
+          <td class="bg-azul2">4</td>
+        </tr>
+        <!-- /Ciencias experimentales -->
+
+        <!-- Ciencias sociales -->
+        <tr>
+          <th class="bg-azul blanco text-center" scope="row">
+            <br>
+            Ciencias sociales
+          </th>
+          <td class="bg-gris">
+            Contexto social, nacional, regional, comunitario
+          </td>
+          <td class="bg-gris">3</td>
+          <td class="bg-gris">
+            Historia de México y cultura e historia propias I
+          </td>
+          <td class="bg-gris">3</td>
+          <td class="bg-gris">
+            Historia de México y cultura e historia propias II
+          </td>
+          <td class="bg-gris">3</td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris"></td>
+          <td class="bg-azul2"></td>
+          <td class="bg-azul2"></td>
+        </tr>
+        <!-- /Ciencias sociales -->
+
+        <!-- Humanidades -->
+        <tr>
+          <th class="bg-azul blanco text-center" scope="row">
+
+          <br>
+           Humanidades
+         </th>
+         <td class="bg-gris"></td>
+         <td class="bg-gris"></td>
+         <td class="bg-gris"></td>
+         <td class="bg-gris"></td>
+         <td class="bg-gris"></td>
+         <td class="bg-gris"></td>
+         <td class="bg-gris">
+          Literatura local, regional y mundial 
+        </td>
+        <td class="bg-gris">3</td>
+        <td class="bg-gris">
+          Formación ética 
+        </td>
+        <td class="bg-gris">3</td>
+        <td class="bg-azul2">
+         Filosofía
+       </td>
+       <td class="bg-azul2">5</td>
+        </tr>
+        <!-- /Humanidades -->
+
+        <!-- Comunicación -->
+        <tr>
+          <th class="bg-azul blanco text-center" scope="row">
+            <br>
+            <br>
+            Comunicación
+          </th>
+          <td class="bg-gris">
+         Cultura y Lengua Indígena I
+         <br>
+         Español I 
+         <br>
+         Ingles I 
+          </td>
+          <td class="bg-gris">
+          <br>
+          <br>
+          3
+          <br>
+          3
+          <br>
+          3
+          </td>
+          <td class="bg-gris">
+            Cultura y Lengua Indígena II 
+            <br>
+            Español II 
+            <br>
+            Ingles II 
+          </td>
+          <td class="bg-gris">
+            <br>
+            <br>
+            3
+            <br>
+            2
+            <br>
+            2
+          </td>
+          <td class="bg-gris">
+            Cultura y Lengua Indígena III
+            <br>
+            Español III 
+            <br>
+            Ingles III
+          </td>
+          <td class="bg-gris">
+            <br>
+            <br>
+            3
+            <br>
+            2
+            <br>
+            2
+          </td>
+          <td class="bg-gris">
+            Cultura y Lengua Indígena IV
+            <br>
+            Español IV
+            <br>
+            Ingles IV 
+          </td>
+          <td class="bg-gris">
+            <br>
+            <br>
+            3
+            <br>
+            3
+            <br>
+            3
+          </td>
+          <td class="bg-gris">
+            Cultura y Lengua Indígena V
+            <br>
+            Español V 
+            <br>
+            Ingles V 
+          </td>
+          <td class="bg-gris">
+            <br>
+            <br>
+            3
+            <br>
+            3
+            <br>
+            3
+          </td>
+          <td class="bg-azul2">
+            Proyecto disciplinario del campo de comunicación
+          </td>
+          <td class="bg-azul2"> 
+            <br>
+            <br>
+            <br>
+            7
+            <br>
+            1
+          </td>
+        </tr>
+        <!-- /Comunicación -->
+
+        <tr>
+          <th class="bg-azul blanco" scope="row">
+          </th>
+          <td class="bg-gris">TIC I</td>
+          <td class="bg-gris">2</td>
+          <td class="bg-gris">TIC II</td>
+          <td class="bg-gris">2</td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris"></td>
+          <td class="bg-gris">TIC III</td>
+          <td class="bg-gris">2</td>
+          <td class="bg-gris">TIC IV</td>
+          <td class="bg-gris">2</td>
+        <tr>
+        <!-- /Comunicación -->
+
+        <!-- Formación profesional y vinculación comunitaria -->
+        <tr>
+          <th class="bg-azul text-center blanco" scope="row">
+            <br>
+            Formación profesional y vinculación comunitaria
+          </th>
+          <td class="bg-gris2">
+            Vinculación comunitaria I
+          </td>
+          <td class="bg-gris2">
+            3
+          </td>
+          <td class="bg-gris2">
+            Módulo 1 Formación profesional técnica
+            <br>
+            Vinculación comunitaria II 
+          </td>
+          <td class="bg-gris2">
+            <br>
+            <br>
+            17
+            <br>
+            <br>
+            1
+          </td>
+          <td class="bg-gris2">
+            Módulo 2 Formación profesional técnica
+            <br>
+            Vinculación comunitaria III 
+          </td>
+          <td class="bg-gris2">
+            <br>
+            <br>
+            <br>
+            17
+            <br>
+            <br>
+            1
+          </td>
+          <td class="bg-gris2">
+            Módulo 3 Formación profesional técnica
+            <br>
+            Vinculación comunitaria IV
+          </td>
+          <td class="bg-gris2">
+            <br>
+            <br>
+            <br>
+            17
+            <br>
+            <br>
+            1
+          </td>
+          <td class="bg-gris2">
+            Vinculación comunitaria V
+            <br>
+            <b class="azul">Asignatura propedéutica*</b>
+            <td class="bg-gris2">
+              <br>
+              1
+              <br>
+              <br>
+              6
+            </td>
+            <td class="bg-gris2">
+              Vinculación comunitaria VI 
+              <br>
+              <b class="azul">Asignatura propedéutica*</b> 
+            </td>
+          <td class="bg-gris2">
+            <br>
+            <br>
+            1
+            <br>
+
+            6
+          </td>
+        </tr>
+        <!-- /Formación profesional y vinculación comunitaria -->
+
+        <!-- Total de horas/s/m --> 
+        <tr>
+          <th class="azul text-center"  scope="row">
+            Total de horas/s/m 
+          </th>
+          <td class="azul"><b></td>
+          <td class="azul"><b>33</td>
+          <td class="azul"><b></td>
+          <td class="azul"><b>38</b></td>
+          <td class="azul"><b></td>
+          <td class="azul"><b>38</b></td>
+          <td class="azul"><b></td>
+          <td class="azul"><b>38</b></td>
+          <td class="azul"><b></td>
+          <td class="azul"><b>40</b></td>
+          <td class="azul"><b></td>
+          <td class="azul"><b>40</b></td>
+        </tr>
+        <!-- /Total de horas/s/m --> 
+
+        <!-- Fortalecimiento académico -->
+        <tr>
+          <th class="bg-azul blanco" scope="row">
+            Fortalecimiento académico
+          </th>
+          <td class="azul3">
+            Asesoría
+            <br>
+            Tutoría 
+          </td>
+          <td class="azul3">
+            4
+            <br>
+            1
+          </td >
+          <td class="azul3">
+            Asesoría
+            <br>
+            Tutoría 
+          </td>
+          <td class="azul3">
+            2
+            <br>
+            1
+          </td>
+          <td class="azul3">
+            Asesoría
+            <br>
+            Tutoría 
+          </td>
+          <td class="azul3">
+            2
+            <br>
+            1
+          </td>
+          <td class="azul3">
+            Asesoría
+            <br>
+            Tutoría 
+            </td>
+          <td class="azul3">
+            2
+            <br>
+            1
+          </td>
+          <td class="azul3">
+            Asesoría
+            <br>
+            Tutoría 
+          </td>
+          <td class="azul3">
+            2
+          <br>
+            1
+          </td>
+          <td class="azul3">
+            Asesoría
+            <br>
+            Tutoría 
+          </td>
+          <td class="azul3">
+            2
+          <br>
+            1
+          </td>
+        </tr>
+        <!-- /Fortalecimiento académico -->
+
+      </tbody>
+    </table>
+  </div>
+
+  <!-- areas propedeuticas -->
+  <div class="container ">
+    <div class="row ">
+
+        <div class="col-md-12">
+          <h2 class="text-center azul mt-5 mb-5 ">Áreas Propedeuticas</h2>
+        </div>
+
+      
+        <div class="col-md-6 col-6">
+          <h5 class="azul text-center mb-5">Físico-Matemática</h5>
+          <p>
+            1. Temas de física
+            <br>
+            2. Dibujo tecnicó
+            <br>
+            3. Calculó diferencial e integral
+          </p>
+        </div>
+        <div class="col-md-6 col-6">
+          <h5 class="azul text-center mb-5">Económico-Administrativa</h5>
+          <p>
+            4. Temas administrativos
+            <br>
+            5. Indroducción a la economía
+            <br>
+            6. Introdución al derecho
+          </p>
+        </div>
+        <div class="col-md-6 col-6">
+          <h5 class="azul text-center mb-5 mt-5">Químico-Biologica</h5>
+          <p class="mb-5">
+            7. Introdución a la bioquímica
+            <br>
+            8. Temas de biología contemporánea
+            <br>
+            9. Temasde ciencias de la salud
+          </p>
+        </div>
+        <div class="col-md-6 col-6">
+          <h5 class="azul text-center mb-5 mt-5">Humanidades y Ciencias Sociales</h5>
+          <p class="mb-5">
+            10. Temas de ciencias sociales
+            <br>
+            11. Literatura
+            <br>
+            12. Historia
+          </p>
+        </div>
+
+
+        <div class="col-md-2 col-4 offset-md-2 bg-gris"></div>
+        <div class="col-md-6 col-8">
+          <p>Componentes de formacion básica</p>
+        </div>
+        <div class="col-md-2 col-4 offset-md-2 bg-azul2"></div>
+        <div class="col-md-6 col-8">
+          <p> 
+          Componentes de formación propédeutica (*El estudiate eligirá dos asignaturas del área propedéuticas de su eleción)
+          </p>
+        </div>
+        <div class="col-md-2 col-4 offset-md-2 bg-gris2"></div>
+        <div class="col-md-6 col-6">
+          <p>Componontes de la formación profesional y vinculación comunitaria</p>
+        </div>
+        <div class="col-md-2 col-4 offset-md-2 bg-azul3"></div>
+        <div class="col-md-6 col-8">
+          <p>Fortalecimiento académico</p>
+        </div>
+
+    </div>              
+  </div>
+  <!--/ areas propedeuticas -->
+
+  <div class="container mt-5 text-center">
+    <div class="row">
+      
+      <div class="col-md-4 offset-md-4 ">
+        <a href=""   class="btn btn-outline-primary" data-toggle="modal" data-target=".bd-example-modal-xl"><i class="fas fa-file-image " style="font-size: 50px;"> <h5 class="mt-1">Ver imagen</h5></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class=" modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-header bg-blanco text-center">
+      <h5 class="azul">Mapa Curricular del Bachillerato Intercultural</h5>       
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-content">
+        <img class="w-100" src="../images/mapa.png">
+      </div>
+    </div>
+  </div>
+
+  <!--/contenedor -->
+
+  <!-- footer -->
+
+  <!-- redes -->
+  <footer class="container-fluid">
+    <div class="container-fluid pt-4 pb-5">
+          <div class="row ">
+
+            <div class="col-md-3">
+              <a href="cultura.html">
+                <div class="col-md-10  mt-4 botonfi  ">
+                  <h4  class="text-center azul pt-3 pb-3 h">
+                    <i style="font-size: 60px;"  class="fas fa-guitar"></i>
+                    <br>
+                    Cultura
+                  </h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="oferta.html">
+                <div class="col-md-10  mt-4 botonfi ">
+                  <h4  class="text-center azul pt-3 pb-3 h">
+                    <i style="font-size: 60px;" class="fas fa-book-reader"></i>
+                    <br>
+                    Oferta educativa
+                  </h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="galeria.html">
+                <div class="col-md-10  mt-4 botonfi ">
+                  <h4  class="text-center azul h pt-3 pb-3 h">
+                    <i style="font-size: 60px;" class="fas fa-images"></i>
+                    <br>
+                    Galeria de fotos
+                  </h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-md-3">
+              <a href="https://www.google.com/maps/place/Bachillerato+Intercultural+02/@20.0077034,-97.6332923,15z/data=!4m5!3m4!1s0x0:0x6da7347cfcc3b4f8!8m2!3d20.0077034!4d-97.6332923?sa=X&ved=2ahUKEwj-_MrP3-LhAhUGEawKHSncCFsQ_BIwDnoECAwQBg&shorturl=1" target="_blank">
+                <div class="col-md-10  mt-4 botonfi ">
+                  <h4  class="text-center azul pt-3 pb-3 h">
+                    <i style="font-size: 60px;" class="fas fa-map-marker-alt"></i>
+                    <br>
+                    Ubicación
+                  </h4>
+                </div>
+              </a>
+            </div>
+
+          </div> 
+    </div>
+  </footer>
+
+  <!-- /redes -->
+
+<footer class="bg-azul pt-3 pb-3">
+    <div class="container">
+      <div class="row ">
+
+        <div class="col-md-3 offset-md-10 text-center">
+          <h1 class=" mt-2 ">
+            <a href="https://api.whatsapp.com/send?phone=5212331072886&text=Hola" target="_blank"><i class="fab fa-whatsapp blanco w mr-3"></i></a>
+            <a href="https://www.facebook.com/bachillerato.intercultural.7" target="_blank"><i class="fab fa-facebook-f blanco f mr-3"></i></a>
+            <a href="https://www.youtube.com/channel/UCM4hTm7PdSntKL9g7LNR1sw/videos?view_as=subscriber" target="_blank"><i class="fab fa-youtube blanco y "></i></a>
+            <a href="https://groups.google.com/d/forum/bachilleto-intercultural" target="_blank"><i class="fab fa-google blanco y "></i></a>
+          </h1>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  
+  <!-- /footer -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+</html>
